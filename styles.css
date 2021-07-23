@@ -6,3 +6,11 @@
 ul {
   list-style: none;
 }
+
+.grid-container{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 1rem;
+}
