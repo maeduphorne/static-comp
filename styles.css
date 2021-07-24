@@ -3,6 +3,28 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.user-menu{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-options{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
 ul {
   list-style: none;
 }
