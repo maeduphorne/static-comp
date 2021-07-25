@@ -1,8 +1,129 @@
 *{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-family: 'Poppins', sans-serif;
+  color: #2D364D
+}
+
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body, html {
+  background-color: #EDF2EF;
+  padding-bottom: 4vh;;
+}
+
+header {
+  background-color: #57C4E5;
+  height: 25vh;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+/* .username-form {
+  background-color: #2D364D;
+} */
+
+.header-options {
+  height: 85%;
+}
+
+.option {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  font-size: 1em;
+}
+
+.card {
+  background-color: #57C4E5;
+  border-radius: 5px;
+}
+
+
+.other-info {
+  background-color: #D2D747;
+}
+
+.dog-image {
+  width: 100%;
+  object-fit: cover;
+  overflow: clip;
+  height: 20em;
+}
+
+.image-section {
+  position: relative;
+}
+
+.favorites {
+  background-color: #F97068;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+}
+
+.empty-heart {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  /* height: 15%;
+  width: 15%; */
+}
+
+.user-menu{
+  display: flex;
+  justify-content: flex-end;
+  height: 15%;
+}
+
+.fa-user{
+  height: 100%;
+  padding-right: 1vh;
+}
+
+.usernames {
+  margin: 3vh;
+  margin-right: 1vh;
+  margin-top: 1vh;
+  height: 100%;
+}
+
+.header-options{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav, .h1 {
+  margin-bottom: 2vh;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  margin-right: 2vh;
+  font-size: 2.5em;
+}
+
+h2 {
+  height: 10vh;
 }
 
 ul {
   list-style: none;
+}
+
+.grid-container{
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.2rem;
 }

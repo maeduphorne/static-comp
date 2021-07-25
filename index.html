@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
@@ -16,9 +17,9 @@
 <!-- HEADER -->
     <header>
       <!-- drop down menu and user icon -->
-      <section>
+      <section class="user-menu">
         <i class="fas fa-user"></i>
-        <form>
+        <form class="username-form">
           <select name="usernames">
             <option value="admin">admin</option>
             <option value="guest">guest</option>
@@ -26,12 +27,12 @@
         </form>
       </section>
       <!-- Unordered List of other pages and H1 -->
-      <section>
-        <nav>
-          <ul>
-            <li><i class="fas fa-share-alt"></i>Shares</li>
-            <li><i class="fas fa-paw"></i>Other Adoptables</li>
-            <li><i class="fas fa-heart"></i>Favorites</li>
+      <section class="header-options">
+        <nav class="nav">
+          <ul class= "list-items">
+            <li lass="option"><i class="fas fa-share-alt"></i>   Shares</li>
+            <li class="option"><i class="fas fa-paw"></i>   Other Adoptables</li>
+            <li lass="option"><i class="fas fa-heart"></i>   Favorites</li>
           </ul>
         </nav>
         <h1>ADOPT ME!<i class="fas fa-dog"></i></h1>
@@ -39,16 +40,16 @@
     </header>
 
     <section class="card-section">
-      <h2>Doggos</h2>
+        <h2>Doggos</h2>
       <!-- GRID -->
       <section class="grid-container">
 
         <!-- CARD 1 -->
         <section class="card">
           <div class="image-section">
-            <i class="far fa-heart"></i>
-            <p>1 previous favorites</p>
-            <!-- <img> -->
+            <i class="far fa-heart empty-heart"></i>
+            <p class="favorites">1 previous favorites</p>
+            <img class="dog-image" src="./assets/dog1.png" alt="Black and white puppy with floppy ears">
           </div>
           <div class="info-section">
             <dl class="dog-info">
@@ -56,17 +57,19 @@
               <dd>Fido</dd>
               <dt>Activity Level:</dt>
               <dd>Chill boi</dd>
-              <dt>Other info:</dt>
-              <dd>House trained & neutered</dd>
+              <div class="other-info">
+                <dt>Other info:</dt>
+                <dd>House trained & neutered</dd>
+              </div>
             </dl>
           </div>
         </section>
         <!-- CARD 2 -->
         <section class="card">
           <div class="image-section">
-            <i class="far fa-heart"></i>
-            <p>2 previous favorites</p>
-            <!-- <img> -->
+            <i class="far fa-heart empty-heart"></i>
+            <p class="favorites">2 previous favorites</p>
+            <img class="dog-image" src="./assets/dog2.png" alt="brown and white dog">
           </div>
           <div class="info-section">
             <dl class="dog-info">
@@ -74,17 +77,19 @@
               <dd>Harper</dd>
               <dt>Activity Level:</dt>
               <dd>squirrel vibes</dd>
-              <dt>Other info:</dt>
-              <dd>House trained</dd>
+              <div class="other-info">
+                <dt>Other info:</dt>
+                <dd>House trained</dd>
+              </div>
             </dl>
           </div>
         </section>
         <!-- CARD 3 -->
         <section class="card">
           <div class="image-section">
-            <i class="far fa-heart"></i>
-            <p>3 previous favorites</p>
-            <!-- <img> -->
+            <i class="far fa-heart empty-heart"></i>
+            <p class="favorites">3 previous favorites</p>
+            <img class="dog-image" src="./assets/dog3.png" alt="Brown and white long-haired dog with pointy ears">
           </div>
           <div class="info-section">
             <dl class="dog-info">
@@ -92,30 +97,113 @@
               <dd>Lucy</dd>
               <dt>Activity Level:</dt>
               <dd>couch potato</dd>
-              <dt>Other info:</dt>
-              <dd>House trained</dd>
+              <div class="other-info">
+                <dt>Other info:</dt>
+                <dd>House trained</dd>
+              </div>
             </dl>
           </div>
         </section>
         <!-- CARD 4 -->
         <section class="card">
           <div class="image-section">
-            <i class="far fa-heart"></i>
-            <p>4 previous favorites</p>
-            <!-- <img> -->
+            <i class="far fa-heart empty-heart"></i>
+            <p class="favorites">4 previous favorites</p>
+            <img class="dog-image" src="./assets/dog4.png" alt="Black and white puppy with big floppy ears">
           </div>
           <div class="info-section">
             <dl class="dog-info">
               <dt>Name:</dt>
               <dd>Lady</dd>
               <dt>Activity Level:</dt>
-              <dd>Daily walks, lots of head pats and pampering required</dd>
-              <dt>Other info:</dt>
-              <dd>House trained</dd>
+              <dd>Daily walks</dd>
+              <div class="other-info">
+                <dt>Other info:</dt>
+                <dd>House trained</dd>
+              </div>
             </dl>
           </div>
         </section>
-
+        <!-- CARD 5 -->
+        <section class="card">
+          <div class="image-section">
+            <i class="far fa-heart empty-heart"></i>
+            <p class="favorites">5 previous favorites</p>
+            <img class="dog-image" src="./assets/dog5.png" alt="grey and white puppy with pointed ears">
+          </div>
+          <div class="info-section">
+            <dl class="dog-info">
+              <dt>Name:</dt>
+              <dd>Bear</dd>
+              <dt>Activity Level:</dt>
+              <dd>Needs an active human</dd>
+              <div class="other-info">
+                <dt>Other info:</dt>
+                <dd>House trained</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+        <!-- CARD 6 -->
+        <section class="card">
+          <div class="image-section">
+            <i class="far fa-heart empty-heart"></i>
+            <p class="favorites">6 previous favorites</p>
+            <img class="dog-image" src="./assets/dog6.png" alt="black and white puppy with black nose">
+          </div>
+          <div class="info-section">
+            <dl class="dog-info">
+              <dt>Name:</dt>
+              <dd>Beans</dd>
+              <dt>Activity Level:</dt>
+              <dd>bean bb</dd>
+              <div class="other-info">
+                <dt>Other info:</dt>
+                <dd>House trained</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+        <!-- CARD 7 -->
+        <section class="card">
+          <div class="image-section">
+            <i class="far fa-heart empty-heart"></i>
+            <p class="favorites">7 previous favorites</p>
+            <img class="dog-image" src="./assets/dog7.png" alt="black and white puppy with grey speckled snout">
+          </div>
+          <div class="info-section">
+            <dl class="dog-info">
+              <dt>Name:</dt>
+              <dd>Danny</dd>
+              <dt>Activity Level:</dt>
+              <dd>Needs an active human</dd>
+              <div class="other-info">
+                <dt>Other info:</dt>
+                <dd>House trained</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
+        <!-- CARD 8 -->
+        <section class="card">
+          <div class="image-section">
+            <i class="far fa-heart empty-heart"></i>
+            <p class="favorites">8 previous favorites</p>
+            <img class="dog-image" src="./assets/dog8.png" alt="tan puppy">
+          </div>
+          <div class="info-section">
+            <dl class="dog-info">
+              <dt>Name:</dt>
+              <dd>Sandy</dd>
+              <dt>Activity Level:</dt>
+              <dd>Sweet n' snuggly</dd>
+              <div class="other-info">
+                <dt>Other info:</dt>
+                <dd>House trained</dd>
+              </div>
+            </dl>
+          </div>
+        </section>
       </section>
     </section>
   </body>
