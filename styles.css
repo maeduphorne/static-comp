@@ -12,7 +12,7 @@ html {
 
 body, html {
   background-color: #EDF2EF;
-  padding-bottom: 4%;
+  /* padding-bottom: 4%; */
 }
 
 header {
@@ -57,6 +57,10 @@ header {
 
 .fa-heart {
   position: absolute;
+  top: 5%;
+  left: 5%;
+  /* height: 15%;
+  width: 15%; */
 }
 
 .user-menu{
