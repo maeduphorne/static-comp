@@ -12,7 +12,7 @@ html {
 
 body, html {
   background-color: #EDF2EF;
-  /* padding-bottom: 4%; */
+  padding-bottom: 4vh;;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
 } */
 
 .header-options {
-  height: 90%;
+  height: 85%;
 }
 
 .option {
@@ -75,7 +75,7 @@ header {
 .user-menu{
   display: flex;
   justify-content: flex-end;
-  height: 10%;
+  height: 15%;
 }
 
 .fa-user{
@@ -85,12 +85,19 @@ header {
 
 .usernames {
   margin: 3vh;
+  margin-right: 1vh;
+  margin-top: 1vh;
+  height: 100%;
 }
 
 .header-options{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.nav, .h1 {
+  margin-bottom: 2vh;
 }
 
 .list-items {
@@ -102,8 +109,8 @@ header {
 }
 
 h1 {
-  margin-bottom: 2vh;
   margin-right: 2vh;
+  font-size: 2.5em;
 }
 
 h2 {
