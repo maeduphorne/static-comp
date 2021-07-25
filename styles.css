@@ -26,6 +26,15 @@ header {
   background-color: #2D364D;
 } */
 
+.header-options {
+  height: 90%;
+}
+
+.option {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  font-size: 1em;
+}
 
 .card {
   background-color: #57C4E5;
@@ -52,7 +61,7 @@ header {
   background-color: #F97068;
   position: absolute;
   top: 70%;
-  left: 70%
+  left: 70%;
 }
 
 .empty-heart {
@@ -66,6 +75,16 @@ header {
 .user-menu{
   display: flex;
   justify-content: flex-end;
+  height: 10%;
+}
+
+.fa-user{
+  height: 100%;
+  padding-right: 1vh;
+}
+
+.usernames {
+  margin: 3vh;
 }
 
 .header-options{
@@ -83,7 +102,8 @@ header {
 }
 
 h1 {
-  margin-bottom: 5px;
+  margin-bottom: 2vh;
+  margin-right: 2vh;
 }
 
 h2 {
@@ -98,6 +118,5 @@ ul {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
-  /* grid-template-rows: repeat(2, 200px); */
   grid-gap: 1.2rem;
 }
