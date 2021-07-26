@@ -57,13 +57,19 @@ header {
   position: relative;
 }
 
-.favorites {
+.name {
   background-color: #F97068;
   position: absolute;
+  font-size: 1.2em;
+  padding: .75vh;
+  overflow-wrap: break-word;
   top: 70%;
   left: 70%;
 }
-
+dd{
+  font-weight: 300;
+  font-style: italic;
+}
 .empty-heart {
   position: absolute;
   top: 5%;
@@ -125,7 +131,7 @@ ul {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1.2rem;
+  gap: 1.2rem;
 }
 
 
