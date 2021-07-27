@@ -22,6 +22,7 @@ This project was a solo project in Module 2 of Turing. The main purpose of the p
 ## Illustrations
 
 ![Screen Shot 2021-07-26 at 8 03 16 PM](https://user-images.githubusercontent.com/78449313/127084654-661b4423-7db5-4af6-ba02-7350afab9c3f.png)
+![Screen Shot 2021-07-26 at 8 03 26 PM](https://user-images.githubusercontent.com/78449313/127084739-7eb98a2f-147e-4395-adcb-11aa51ee0321.png)
 
 ## Given Comp
 
