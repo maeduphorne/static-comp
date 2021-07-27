@@ -21,11 +21,11 @@ This project was a solo project in Module 2 of Turing. The main purpose of the p
 
 ## Illustrations
 
-*replace with image*
+![Screen Shot 2021-07-26 at 8 03 16 PM](https://user-images.githubusercontent.com/78449313/127084654-661b4423-7db5-4af6-ba02-7350afab9c3f.png)
 
 ## Given Comp
 
-*replace with image*
+![Screen Shot 2021-07-22 at 1 24 30 PM](https://user-images.githubusercontent.com/78449313/127084703-c00b2b7c-09d2-4273-bf3e-26277c039af9.png)
 
 ## Instructions
   - You may view on github pages [here](*replace with deploy link*)
